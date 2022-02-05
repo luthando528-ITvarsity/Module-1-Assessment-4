@@ -1,0 +1,55 @@
+h1 {
+    color: green;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: large;
+    color: brown;
+}
+<style> {
+
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px;
+    font-size: smaller;
+    min-width: 200px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 5px solid black;
+    color: rgb(6, 190, 236);
+    font-size: bold;
+    background-color:black;
+}
+
+.content-table thead tr {
+    background-color: rgb(2, 0, 128);
+    color: burlywood;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.content-table th,
+.content-tabletd {
+padding: 5px 10px;
+}
+.content-table tbody tr {
+border-bottom: 1px solid blue;
+border-collapse: separate grey;
+border: 0in;
+font-style: initial;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.content-table tbody tr:nth-of-type(even) {
+background-color: grey;
+}
+.content-table tbody tr:last-of-type {
+border-bottom:3px solid rgb(6, 242, 250);
+border-right: grey;
+border-left-color: aqua;
+}
+.content-table td {
+text-align: center;
+}
+</style>
